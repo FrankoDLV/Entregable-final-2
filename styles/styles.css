@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap');
+
+
+:root {
+    /* Colors */
+    --primary: #f4f1f1;
+    --secondary: #e4dfb6;
+    --alternative: #adade3;
+    --text-color: #2b2b2b;
+  
+    /* Spacings */
+    --spacing-large: 6rem;
+    --spacing-medium: 2.4rem; 
+    --spacing-small: 2rem;
+    --spacing-xsmall: 1rem;
+  
+    /* Font-family */
+    --font-principal: 'Merriweather', serif;
+    --font-title: 'Montserrat', sans-serif;
+  
+    /* Font-Sizes */
+    --text-large: 5.2em;
+    --text-extra-medium: 3.7em;
+    --text-medium: 2.2em;
+    --text-base: 1.6em;
+    --text-small: 1.4em;
+  }
+  
+  /* /Estilos Globales/ */
+  
+  *::after,
+  *::before,
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  html {
+    font-size: 62.5%;
+   
+  }
+  
+  body {
+    font-family: var(--font-principal);}
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: var(--font-title);
+    color: var(--secondary);
+  }
+  
+ 
+
+
+
+
+/* INICIO */
+
+
+
+/* GRID */
+
+.grid_index {
+  display:grid;
+  grid-template-areas:
+  "navbar navbar "
+  "login-box login-box"
+  "pieDePagina pieDePagina";
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 60px 400px 1fr;
+  height: 100vh;
+  background-image: url(../image/fondo\ minimalista.jpeg);
+}
+.navbar {
+  grid-area: navbar;
+}
+
+.login_box {
+  grid-area: login_box;
+}
+
+
+.pieDePagina {
+  grid-area:pieDePagina;
+}
+
+
+
+/* NAV */
+
+
+
+/* nav ul li a{
+  color: var(--primary);
+  font-size: 15px;
+} */
+
+
+
+
+
+/* html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-image:url(../image/mod1.jp);
+}
+
+
+.login-box {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+  
+
+
+
+/* GALERIA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACTO */
+
+
+
+/* GRID CONTACTO */
+
+
+
+
+/* HEADER CONTACTO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICIO  */
+
+
+
+
+
+
+
+
+
+
+/* GALERIA  */
+
+
+
+
+
+
+
+/* ESTA SECCION DE COLOR GRIS. DEBERIA IR BIEN TRANSPARENTE, COSA QUE SE VEA LA IMAGEN DE FONDO
+PERO NO SE HACERLO, ME AFECTA A TODO ! IMAGEN BOTONES ETC.. 
+
+.galeriaCarrusel {
+  background-color: rgb(158, 158, 158); 
+} */
+
+
+
+
+
